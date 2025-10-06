@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyDent • ข้อมูลคลินิก</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <header>
+    <h1>🏥 ข้อมูลคลินิก (Clinic Info)</h1>
+  </header>
+
+  <main>
+    <p>หน้านี้ใช้สำหรับตั้งค่าข้อมูลหลักของคลินิก เช่น ชื่อ, ที่อยู่, โลโก้ และรายละเอียดการติดต่อ 💜</p>
+    <p>ข้อมูลทั้งหมดที่กรอกในหน้านี้จะถูกนำไปแสดงบน <strong>ใบเสร็จรับเงิน</strong> และ <strong>ใบนัดของคนไข้</strong> โดยอัตโนมัติค่ะ ✨</p>
+
+    <h2>✏️ การแก้ไขข้อมูลคลินิก</h2>
+    <ol>
+      <li>ไปที่เมนู <strong>ข้อมูลคลินิก</strong></li>
+      <li>
+        กรอกหรือแก้ไขข้อมูลดังต่อไปนี้:
+        <ul>
+          <li>🏥 <strong>ชื่อคลินิก</strong> → เช่น “ใจดีคลินิก”</li>
+          <li>📍 <strong>ที่อยู่คลินิก</strong> → เช่น “123 บางรัก กทม.”</li>
+          <li>💳 <strong>เลขที่ผู้เสียภาษี</strong> → ใส่ได้ถ้ามี (ไม่บังคับ)</li>
+          <li>☎️ <strong>เบอร์โทรศัพท์</strong> → เช่น “123-456-7890”</li>
+          <li>💬 <strong>Line ID</strong> → สำหรับให้ผู้ป่วยติดต่อได้สะดวก</li>
+        </ul>
+      </li>
+      <li>เมื่อกรอกครบแล้ว กดปุ่ม <strong>บันทึก (Save)</strong> เพื่อเก็บข้อมูลไว้ในระบบ</li>
+    </ol>
+
+    <blockquote>
+      💡 Tips:<br>
+      - กรอกข้อมูลให้ครบทุกช่อง โดยเฉพาะชื่อคลินิกและเบอร์โทร เพราะจะแสดงบนเอกสารหลักทั้งหมด<br>
+      - ถ้าข้อมูลเปลี่ยน เช่น ย้ายที่ตั้งใหม่ อย่าลืมกลับมาอัปเดตตรงนี้ด้วยนะคะ
+    </blockquote>
+
+    <h2>🖼️ การอัปเดตโลโก้คลินิก</h2>
+    <p>โลโก้ของคลินิกจะปรากฏบนทุกใบเสร็จและใบนัด ดังนั้นควรใช้โลโก้ที่ชัดเจนและพอดีค่ะ 💜</p>
+    <ol>
+      <li>กดที่โลโก้ MyDent ตรงกลางหน้าจอ</li>
+      <li>เลือกไฟล์โลโก้จากเครื่องของพี่ (รองรับทั้ง <strong>PNG</strong> และ <strong>JPG</strong>)</li>
+      <li>
+        แนะนำให้ใช้ขนาด:
+        <ul>
+          <li>🔸 200x200 <strong>px</strong></li>
+          <li>🔸 รูปทรงกลม (เพื่อให้แสดงพอดีกรอบ)</li>
+          <li>🔸 พื้นหลังสีขาวหรือโปร่งใส (จะดูสะอาดและเข้ากับธีมพาสเทล)</li>
+        </ul>
+      </li>
+    </ol>
+
+    <blockquote>
+      🌈 Tips จากไลลา: ถ้าโลโก้มีขอบหรือเงาเยอะ ให้ครอปเป็นวงกลมก่อนอัปโหลด จะพอดีและไม่ถูกตัดขอบในใบเสร็จเลยค่ะ ✨
+    </blockquote>
+
+    <h2>⚙️ ปุ่มเสริม</h2>
+    <p>
+      🔘 <strong>Welcome Screen</strong> → เปิด/ปิดหน้าต้อนรับก่อนเข้าสู่ระบบ<br>
+      ถ้าเปิดไว้ แอปจะแสดงโลโก้คลินิกขึ้นต้อนรับทุกครั้งที่เปิดแอป 💜
+    </p>
+
+    <figure>
+      <img src="assets/images/clinicdata.jpg" alt="ตัวอย่างหน้าข้อมูลคลินิกใน MyDent">
+      <figcaption>ตัวอย่างหน้า “ข้อมูลคลินิก” พร้อมตำแหน่งกรอกข้อมูลและปุ่ม Welcome Screen</figcaption>
+    </figure>
+
+    <h2>🔗 ไปต่อ</h2>
+    <p>
+      👉 <a href="time_setting.html">ตั้งค่าเวลาทำการคลินิก (HTML)</a><br>
+      👉 <a href="printer_setting.html">ตั้งค่า Printer (HTML)</a><br>
+      👉 <a href="operation.html">เริ่มใช้งานจริง (HTML)</a><br>
+      👉 <a href="qa.html">Q&A คำถามที่พบบ่อย (HTML)</a><br>
+      👉 <a href="contact.html">ติดต่อทีม MyDent (HTML)</a><br>
+      👉 <a href="signup.html">คู่มือ สมัครสมาชิก &amp; เข้าสู่ระบบ (HTML)</a><br>
+      👉 <a href="getting_start.html">กลับไปหน้า เริ่มต้นใช้งาน (HTML)</a><br>
+      👉 <a href="index.html">หน้าแรก Welcome / Home</a>
+    </p>
+  </main>
+
+  <footer>
+    © 2025 MyDent • Designed with 💜 by Laila
+  </footer>
+</body>
+</html>

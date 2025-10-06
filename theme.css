@@ -70,6 +70,26 @@ ol {
   margin-left: 1.4rem;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin: 24px auto;
+}
+
+figure {
+  margin: 24px auto;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 12px;
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
 footer {
   text-align: center;
   padding: 20px;
